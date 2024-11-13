@@ -1,7 +1,6 @@
-# 데이콘 고려대 Medical AI (MAI)
+# 💊 데이콘 고려대 Medical AI (MAI) 💊
 
-
-대회 링크
+## 대회 링크
 
 https://dacon.io/competitions/official/236382/overview/description
 
@@ -9,6 +8,9 @@ https://dacon.io/competitions/official/236382/overview/description
 
 - 주최/주관 : 고려대학교 의료원, 고려대학교 의과대학, 고려대학교 BK21 융합중개의과학교육연구단
 - 기간 : 2024.10.02 ~ 2024.10.31
+
+### ▶ 최종 순위(상위 약 48%)
+![rank](https://github.com/user-attachments/assets/c3577851-3447-4657-acac-7a2ec81c3426)
 
 # 1.Project Outline
 
@@ -98,7 +100,7 @@ EfficientNetB0에 비해 ResNet50은 더 복잡한 특징을 학습하는데 유
     - 모델 성능을 더욱 개선하기 위해서 높은 **epoch 수**로 계속 학습을 하고 싶었지만, 장비의 한계로 인해 할 수 없었음.
 
 ### 배운 점
-
+- 이번 대회는 첫 데이콘 참여라 많은 부분에서 부족했지만, 대회 참여 과정을 통해 모델 성능을 높여 평가 지표를 개선하는 방향성을 알게 되었습니다. 처음에는 대회의 Task에 적합한 모델을 선택하는 것부터 고민했으며, 이후 하이퍼파라미터 튜닝과 앙상블 기법을 추가하면서 성능을 향상시키는 방법을 알게 되었습니다.
 - optimizer 중 SiLU에 대해 알게 됨. (주로 EfficientNet과 같은 모델에서 사용하며, Sigmoid 함수와 선형 함수의 결합으로 정의됨.)
     - 기울기 소실 문제 완화
     - ReLU같은 활성화 함수는 급격한 출력 변화가 나타날 수 있지만, SiLU의 경우에는 더 자연스러운 변화를 보여줌
